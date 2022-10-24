@@ -1,14 +1,22 @@
 .login-background{
     height: 100vh;
-    background: linear-gradient(#84e998, #4d9e27 0%, #2c750a 100%);
-    padding-top: 60px;
+    // background: linear-gradient(#98b99f, #315222 0%, #4ae004 100%);
+    background-image: url('../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .login-container{
-        width: 400px;
-        height: 85%;
-        margin: 0 auto;
-        background-color: white;
+        width: 350px;
         border-radius: 30px;
+        background-color: white;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 500px;
+        opacity: 0.7;
 
         .login-content{
             padding: 20px;
@@ -28,6 +36,16 @@
                     border-radius: 30px;
                     height: 40px;
                 }
+
+                .custom-input-password{
+                    position: relative;
+                    i {
+                        position: absolute;
+                        right: 15px;
+                        top: 13px;
+                        cursor: pointer;
+                    }
+                }
             }
 
             .btn-login{
@@ -40,13 +58,14 @@
                 color: white;
                 font-weight: bold;
                 font-size: 20px;
-                background: linear-gradient(#6eee87, #5fc52e 0%, #4ab419 100%);
+                background: linear-gradient(#98b99f, #315222 0%, #4ae004 100%);
             }
 
             .text-forgot{
                 font-size: 12px;
                 color: black;
                 font-weight: bold;
+                cursor: pointer;
 
             }
 
@@ -67,6 +86,7 @@
                     justify-content: center;
                     color: white;
                     margin: 15px;
+                    cursor: pointer;
                 }
 
                 .google{
@@ -80,6 +100,7 @@
                     justify-content: center;
                     color: white;
                     margin: 15px;
+                    cursor: pointer;
                 }
 
                 .twitter{
@@ -93,6 +114,7 @@
                     justify-content: center;
                     color: white;
                     margin: 15px;
+                    cursor: pointer;
                 }
 
             }
