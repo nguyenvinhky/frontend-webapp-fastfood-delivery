@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
+import HomeHeader from './Header/HomeHeader';
 
-import HomeHeader from './HomeHeader';
+
 class HomePage extends Component {
 
     render() {
         return (
-            <div>
+            <Fragment>
                 <HomeHeader/>
-            </div>
+            </Fragment>
         );
     }
 
