@@ -1,0 +1,193 @@
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo{
+            h2{
+                color: var(--black);
+                margin-bottom: 0;
+            }
+            span{
+                i{
+                    color: var(--green);
+                }
+            }
+        }
+    
+        .nav__menu{
+            .nav__list__wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .nav__list{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 0;
+                    list-style: none;
+                    column-gap: 2.7rem;
+    
+                    .nav__item{
+                        a{
+                            color: black;
+                            text-decoration: none;
+                            transition: 0.3s;
+    
+                            &:hover{
+                                color: #f5b70a;
+                            }
+                        }
+                    }
+                }
+
+                .menu__right{
+                    padding-left: 100px;
+                    .custom__search{
+                        display: flex;
+                        align-items: center;
+                        padding: 10px 25px;
+                        height: 35px;
+                        border-radius: 50px;
+                        background: #141124;
+        
+                        input{
+                            border: none;
+                            outline: none;
+                            background: transparent;
+                            color: #fff;
+                        }
+        
+                        span{
+                            i{
+                                cursor: pointer;
+                                color: beige;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .moble__menu{
+            span{
+                i{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+
+        .cart__icon{
+            position: relative;
+            z-index: 999;
+            width: 40px;
+            height: 30px;
+            border-radius: 5px;
+            background: #f76e11;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .badge{
+                position: absolute;
+                top: -2px;
+                right: -3px;
+                z-index: 1000;
+                color: #141124;
+                font-size: .8rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+/*======================================= make it responsive =======================================*/
+
+@media only screen and (max-width:991px) {
+    .header{
+        line-height: 40px;
+        padding: 10px 0;
+
+        .navigation{
+
+            .logo{
+                h2{
+                    font-size: 1.5rem;
+                }
+            }
+            .nav__menu{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 99;
+                background: #0a071a7e;
+                display: none;
+    
+                .nav__list__wrapper{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 250px;
+                    height: 100%;
+                    z-index: 100;
+                    background: #141124;
+                    flex-direction: column;
+                    box-shadow: 5px 5px 15px -5px #f5b70a;
+                    justify-content: center !important;
+                    align-items: center;
+                    padding: 0px 20px;
+    
+                    .nav__list{
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        padding: 0;
+                        .nav__item{
+    
+                            a{
+                                font-size: 0.9rem;
+                            }
+                        }
+                    }
+    
+                    .menu__right{
+                        margin-left: 10px;  
+                        .custom__search{
+                            border: 1px solid #c4c4c425;
+                            padding: 5px 15px;
+                            font-size: .9rem;
+                            height: 30px;
+                            margin-top: 15px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .moble__menu{
+            display: block;
+        }
+
+        .active__menu{
+            display: block;
+        }
+    }
+}
