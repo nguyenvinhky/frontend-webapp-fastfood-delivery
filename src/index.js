@@ -4,11 +4,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import './styles/styles.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'remixicon/fonts/remixicon.css'
-<<<<<<< HEAD
-=======
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
->>>>>>> design-slider-menu
 
 import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
