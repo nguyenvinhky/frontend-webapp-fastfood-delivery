@@ -1,8 +1,14 @@
 import sliderImg01 from "../images/slider1.png";
 import sliderImg02 from "../images/slider2.png";
+<<<<<<< HEAD
 import sliderImg03 from "../images/slider03";
 
 export default sliderData = [
+=======
+import sliderImg03 from "../images/slider03.png";
+
+export const sliderData = [
+>>>>>>> design-slider-menu
   {
     id: "01",
     title: "We have simple and delicious food for you",

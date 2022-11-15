@@ -12,7 +12,11 @@ import coffeeImg02 from "../images/coffe2.png";
 
 import salad from "../images/slider2.png";
 
+<<<<<<< HEAD
 export const popularMenuFood = [
+=======
+export let popularMenuFood = [
+>>>>>>> design-slider-menu
   {
     id: "01",
     title: "Vegetable Salad",

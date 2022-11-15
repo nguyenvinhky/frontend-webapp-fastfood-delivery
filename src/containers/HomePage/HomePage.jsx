@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
+import HeroSlider from '../../components/hero-slider/HeroSlider';
+import PopularMenu from '../../components/popular-menu/PopularMenu';
+import HomeHeader from './Header/HomeHeader';
+import './HomePage.scss';
 
-import HomeHeader from './HomeHeader';
+
 class HomePage extends Component {
 
     render() {
         return (
-            <div>
+            <div className='full'>
                 <HomeHeader/>
+                <HeroSlider/>
+                <PopularMenu/>
             </div>
         );
     }
