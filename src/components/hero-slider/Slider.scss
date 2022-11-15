@@ -1,0 +1,30 @@
+
+section{
+    padding-top: 40px;
+    .slider__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 15px;
+    
+        .slider__content{
+    
+            h2{
+                margin: 25px 0;
+            }
+    
+            p{
+                margin: 25px 0;
+            }
+    
+            .btn{
+                padding: 7px 25px;
+                border-radius: 5px;
+                background: #f76e11;
+                color: #fff;
+                font-size: 0.9rem;
+                margin-top: 20px;
+            }
+        }
+    }
+}

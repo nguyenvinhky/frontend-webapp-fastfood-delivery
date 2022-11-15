@@ -12,7 +12,7 @@ import coffeeImg02 from "../images/coffe2.png";
 
 import salad from "../images/slider2.png";
 
-export const popularMenuFood = [
+export let popularMenuFood = [
   {
     id: "01",
     title: "Vegetable Salad",
