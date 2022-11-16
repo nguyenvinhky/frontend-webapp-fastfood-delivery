@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
+import ChooseUs from '../../components/choose-us/ChooseUs';
 import HeroSlider from '../../components/hero-slider/HeroSlider';
+import MenuPack from '../../components/menu-pack/MenuPack';
 import PopularMenu from '../../components/popular-menu/PopularMenu';
 import HomeHeader from './Header/HomeHeader';
 import './HomePage.scss';
@@ -14,6 +16,8 @@ class HomePage extends Component {
                 <HomeHeader/>
                 <HeroSlider/>
                 <PopularMenu/>
+                <ChooseUs/>
+                <MenuPack/>
             </div>
         );
     }

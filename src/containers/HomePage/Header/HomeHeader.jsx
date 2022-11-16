@@ -42,7 +42,6 @@ class HomeHeader extends Component {
                                     EatingNow.
                                 </h2>
                             </div>
-                            
 
                             <div className="nav__menu">
                                 <div className="nav__list__wrapper">
