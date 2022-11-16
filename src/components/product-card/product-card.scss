@@ -3,14 +3,19 @@
     background: #141124;
     border-radius: 10px;
     cursor: pointer;
+    
 
     &:hover{
-        box-shadow: 5px 5px 10px 3px #f5b70a;
+        box-shadow: 5px 5px 10px 2px #f5b70a;
     }
 
     .product__images{
         img{
             width: 300px;
+        }
+        &:hover{
+            transition: .5s;
+            margin-top: -10px;
         }
     }
 

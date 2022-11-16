@@ -1,0 +1,26 @@
+
+
+section{
+    .menu{
+        .menu__title{ 
+            color: #f5b70a;
+
+        }
+    }
+    .button{
+        .filter-btn{
+            border: 1px solid #f76e11;
+            padding: 7px 25px;
+            background: transparent;
+            margin-left: 15px;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .active__btn{
+            background: #f76e11;
+        }
+    }
+    
+}

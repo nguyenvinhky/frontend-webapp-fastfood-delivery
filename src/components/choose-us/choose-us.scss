@@ -1,0 +1,153 @@
+
+section{
+    margin-top: 40px;
+    .Container{
+        padding: 50px;
+        background: #141124;
+        border-radius: 17px;
+
+        .choose__content{
+            
+            h4{
+                color: #fff;
+                margin-bottom: 15px;
+            }
+
+            h2{
+                color: #f5b70a;
+            }
+
+            p{
+                color: gray;
+            }
+        }
+
+        .features{
+            margin-top: 4px;
+            .feature1{
+                display: flex;
+                align-items: center;
+                margin-top: 3px;
+                .single__feature1{
+                    .feature__icon-1{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: #ff766b;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 10px;
+
+                        i{
+                            font-size: 1.5rem;
+                        }
+                    }
+
+                    h6{
+                        color: #f5b70a;
+                        margin-bottom: 0;
+                    }
+
+                    p{
+                        font-size: .7rem;
+                        color: gray;
+                    }
+                }
+
+                .single__feature2{
+                    padding-left: 30px;
+                    .feature__icon-2{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: #2ace92;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 10px;
+
+                        i{
+                            font-size: 1.5rem;
+                        }
+                    }
+
+                    h6{
+                        color: #f5b70a;
+                        margin-bottom: 0;
+                    }
+
+                    p{
+                        font-size: .7rem;
+                        color: gray;
+                    }
+                }
+            }
+
+            .feature2{
+                display: flex;
+                align-items: center;
+                padding-top: 5px;
+                .single__feature3{
+
+                    .feature__icon-3{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: #ff766b;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 10px;
+
+                        i{
+                            font-size: 1.5rem;
+                        }
+                    }
+
+                    h6{
+                        color: #f5b70a;
+                        margin-bottom: 0;
+                    }
+
+                    p{
+                        font-size: .7rem;
+                        color: gray;
+                    }
+
+                    .feature__icon-3{
+                        background: #f5b70a;
+                    }
+                }
+
+                .single__feature4{
+                    padding-left: 30px;
+                    .feature__icon-4{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: #7865ff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 10px;
+
+                        i{
+                            font-size: 1.5rem;
+                        }
+                    }
+
+                    h6{
+                        color: #f5b70a;
+                        margin-bottom: 0;
+                    }
+
+                    p{
+                        font-size: .7rem;
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+}
